@@ -1,9 +1,9 @@
-Logos-in-css
+Logos-in-CSS
 ============
 
 ![Logos](https://raw.github.com/gabceb/logos-in-css/master/banner.png)
 
-Logos of [Blendspace](https://www.blendspace.com) and Edcanvas Inspired by the [Logos in Pure CSS](http://www.bchanx.com/logos-in-pure-css-demo) post.
+Logos of [Blendspace](https://www.blendspace.com) and Edcanvas inspired by the [Logos in Pure CSS](http://www.bchanx.com/logos-in-pure-css-demo) post.
 
 JSFiddle
 ------
