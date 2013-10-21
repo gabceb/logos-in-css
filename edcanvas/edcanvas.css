@@ -1,0 +1,111 @@
+.logo
+{
+	position: relative;
+	width: 200px;
+	height: 200px;
+}
+
+.logo div
+{
+	position: absolute;
+}
+
+.top, .bottom
+{
+	height: 20%;
+}
+
+.left, .right
+{
+	width: 20%;
+}
+
+.top
+{
+	top: 0;
+}
+
+.right
+{
+	right: 0;
+}
+
+.left
+{
+	left: 0;
+}
+
+.bottom
+{
+	bottom: 0;
+}
+
+.top-left
+{
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 40px 40px 0 40px;
+	border-color: #ED3854 transparent transparent transparent;
+	
+	z-index: 1;
+}
+
+.top-right
+{
+	background-color: #FC8837;
+	width: 160px;
+	left: 40px;
+	right: 0;
+}
+
+.right-top
+{
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 40px 40px 40px 0;
+	border-color: transparent #FBBD2C transparent transparent;
+	z-index: 1;
+}
+
+.right-bottom
+{
+	background-color: #FEE238;
+	height: 160px;
+	bottom: 0;
+}
+
+.bottom-right
+{
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 0 40px 40px 40px;
+	border-color: transparent transparent #9957BF transparent;
+	right: 0;
+	z-index: 1;
+}
+
+.bottom-left
+{
+	background-color: #897CD8;
+	width: 160px;
+}
+
+.left-bottom
+{
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 40px 0 40px 40px;
+	border-color: transparent transparent transparent #2CB689;
+	bottom: 0;
+	z-index: 1;
+}
+
+.left-top
+{
+	background-color: #47C9B7;
+	height: 160px;
+}
