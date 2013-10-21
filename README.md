@@ -9,7 +9,7 @@ JSFiddle
 ------
 
 - Blendspace Logo: http://jsfiddle.net/gabceb/2tVC3
-- Edcanvas Logo: Coming soon
+- Edcanvas Logo: http://jsfiddle.net/gabceb/egYEE
 
 License
 ------
