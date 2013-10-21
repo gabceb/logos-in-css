@@ -1,0 +1,288 @@
+* { margin: 0; padding: 0; }
+
+.circle {
+	position: absolute;
+	margin: 7em auto;
+	top: 50%;
+	margin-top:-80px;
+	left: 50%;
+	margin-left: -80px;
+	width: 160px;
+	height: 160px;
+	border-radius: 50%;
+	background: transparent;
+}
+.arc0 {
+	overflow: hidden;
+	position: absolute;
+	top: -1em; right: 50%; bottom: 50%; left: -1em;
+	transform-origin: 100% 100%;
+	transform: rotate(45deg) skewX(40deg);
+}
+.arc0:before {
+	box-sizing: border-box;
+	display: block;
+	border: solid 1em #0CADFF;
+	width: 200%; height: 200%;
+	border-radius: 50%;
+	transform: skewX(-40deg);
+	content: '';
+}
+.arc1 {
+	overflow: hidden;
+	position: absolute;
+	top: -1em; right: 50%; bottom: 50%; left: -1em;
+	transform-origin: 100% 100%;
+	transform: rotate(100deg) skewX(55deg);
+}
+.arc1:before {
+	box-sizing: border-box;
+	display: block;
+	border: solid 1em #9956B5;
+	width: 200%; height: 200%;
+	border-radius: 50%;
+	transform: skewX(-55deg);
+	content: '';
+}
+
+.arc2 {
+	overflow: hidden;
+	position: absolute;
+	top: -1em; right: 50%; bottom: 50%; left: -1em;
+	transform-origin: 100% 100%;
+	transform: rotate(140deg) skewX(50deg);
+}
+.arc2:before {
+	box-sizing: border-box;
+	display: block;
+	border: solid 1em #FE2848;
+	width: 200%; height: 200%;
+	border-radius: 50%;
+	transform: skewX(-50deg);
+	content: '';
+}
+
+.arc3 {
+	overflow: hidden;
+	position: absolute;
+	top: -1em; right: 50%; bottom: 50%; left: -1em;
+	transform-origin: 100% 100%;
+	transform: rotate(185deg) skewX(65deg);
+}
+.arc3:before {
+	box-sizing: border-box;
+	display: block;
+	border: solid 1em #FCC413;
+	width: 200%; height: 200%;
+	border-radius: 50%;
+	transform: skewX(-65deg);
+	content: '';
+}
+
+.arc4 {
+	overflow: hidden;
+	position: absolute;
+	top: -1em; right: 50%; bottom: 50%; left: -1em;
+	transform-origin: 100% 100%;
+	transform: rotate(215deg) skewX(55deg);
+}
+.arc4:before {
+	box-sizing: border-box;
+	display: block;
+	border: solid 1em #81BB24;
+	width: 200%; height: 200%;
+	border-radius: 50%;
+	transform: skewX(-55deg);
+	content: '';
+}
+.arc5 {
+	overflow: hidden;
+	position: absolute;
+	top: -1em; right: 50%; bottom: 50%; left: -1em;
+	transform-origin: 100% 100%;
+	transform: rotate(255deg) skewX(60deg);
+}
+.arc5:before {
+	box-sizing: border-box;
+	display: block;
+	border: solid 1em #0CADFF;
+	width: 200%; height: 200%;
+	border-radius: 50%;
+	transform: skewX(-60deg);
+	content: '';
+}
+.arc6 {
+	overflow: hidden;
+	position: absolute;
+	top: -1em; right: 50%; bottom: 50%; left: -1em;
+	transform-origin: 100% 100%;
+	transform: rotate(290deg) skewX(70deg);
+}
+.arc6:before {
+	box-sizing: border-box;
+	display: block;
+	border: solid 1em #FE2848;
+	width: 200%; height: 200%;
+	border-radius: 50%;
+	transform: skewX(-70deg);
+	content: '';
+}
+.arc7 {
+	overflow: hidden;
+	position: absolute;
+	top: -1em; right: 50%; bottom: 50%; left: -1em;
+	transform-origin: 100% 100%;
+	transform: rotate(315deg) skewX(50deg);
+}
+.arc7:before {
+	box-sizing: border-box;
+	display: block;
+	border: solid 1em #FCC413;
+	width: 200%; height: 200%;
+	border-radius: 50%;
+	transform: skewX(-50deg);
+	content: '';
+}
+.arc8 {
+	overflow: hidden;
+	position: absolute;
+	top: -1em; right: 50%; bottom: 50%; left: -1em;
+	transform-origin: 100% 100%;
+	transform: rotate(360deg) skewX(50deg);
+}
+.arc8:before {
+	box-sizing: border-box;
+	display: block;
+	border: solid 1em #81BB24;
+	width: 200%; height: 200%;
+	border-radius: 50%;
+	transform: skewX(-50deg);
+	content: '';
+}
+
+.inner-circle {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top:-50px;
+	margin-left: -50px;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background: transparent;
+}
+.inner-arc0 {
+	overflow: hidden;
+	position: absolute;
+	top: -1em; right: 50%; bottom: 50%; left: -1em;
+	transform-origin: 100% 100%;
+	transform: rotate(45deg) skewX(80deg);
+}
+.inner-arc0:before {
+	box-sizing: border-box;
+	display: block;
+	border: solid 1em #FE2848;
+	width: 200%; height: 200%;
+	border-radius: 50%;
+	transform: skewX(-80deg);
+	content: '';
+}
+.inner-arc1 {
+	overflow: hidden;
+	position: absolute;
+	top: -1em; right: 50%; bottom: 50%; left: -1em;
+	transform-origin: 100% 100%;
+	transform: rotate(60deg) skewX(25deg);
+}
+.inner-arc1:before {
+	box-sizing: border-box;
+	display: block;
+	border: solid 1em #FCC413;
+	width: 200%; height: 200%;
+	border-radius: 50%;
+	transform: skewX(-25deg);
+	content: '';
+}
+
+.inner-arc2 {
+	overflow: hidden;
+	position: absolute;
+	top: -1em; right: 50%; bottom: 50%; left: -1em;
+	transform-origin: 100% 100%;
+	transform: rotate(130deg) skewX(25deg);
+}
+.inner-arc2:before {
+	box-sizing: border-box;
+	display: block;
+	border: solid 1em #0CADFF;
+	width: 200%; height: 200%;
+	border-radius: 50%;
+	transform: skewX(-25deg);
+	content: '';
+}
+
+.inner-arc3 {
+	overflow: hidden;
+	position: absolute;
+	top: -1em; right: 50%; bottom: 50%; left: -1em;
+	transform-origin: 100% 100%;
+	transform: rotate(200deg) skewX(60deg);
+}
+.inner-arc3:before {
+	box-sizing: border-box;
+	display: block;
+	border: solid 1em #9956B5;
+	width: 200%; height: 200%;
+	border-radius: 50%;
+	transform: skewX(-60deg);
+	content: '';
+}
+
+.inner-arc4 {
+	overflow: hidden;
+	position: absolute;
+	top: -1em; right: 50%; bottom: 50%; left: -1em;
+	transform-origin: 100% 100%;
+	transform: rotate(235deg) skewX(5deg);
+}
+.inner-arc4:before {
+	box-sizing: border-box;
+	display: block;
+	border: solid 1em #81BB24;
+	width: 200%; height: 200%;
+	border-radius: 50%;
+	transform: skewX(-5deg);
+	content: '';
+}
+.inner-arc5 {
+	overflow: hidden;
+	position: absolute;
+	top: -1em; right: 50%; bottom: 50%; left: -1em;
+	transform-origin: 100% 100%;
+	transform: rotate(325deg) skewX(70deg);
+}
+.inner-arc5:before {
+	box-sizing: border-box;
+	display: block;
+	border: solid 1em #0CADFF;
+	width: 200%; height: 200%;
+	border-radius: 50%;
+	transform: skewX(-70deg);
+	content: '';
+}
+.inner-arc6 {
+	overflow: hidden;
+	position: absolute;
+	top: -1em; right: 50%; bottom: 50%; left: -1em;
+	transform-origin: 100% 100%;
+	transform: rotate(350deg) skewX(40deg);
+}
+.inner-arc6:before {
+	box-sizing: border-box;
+	display: block;
+	border: solid 1em #9956B5;
+	width: 200%; height: 200%;
+	border-radius: 50%;
+	transform: skewX(-40deg);
+	content: '';
+}
